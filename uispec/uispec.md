@@ -1,27 +1,28 @@
 # User Interface Specification
 ## 1. Introduction
-<br>
-This document specifies the usage and technical features of the user interface which is provided in the following figure.
-<br><br>
 
-![](/assets/image001.jpg "User Interface")
-<br><br>
+This document specifies the usage and technical features of the user interface which is provided in the following figure.
+
+![UI](/assets/image001.jpg "User Interface")
+<br>
 This user interface is designed to sign new users up to the system and to display the current users in the system.
 
-There is a database connected to that application which stores the information of users. The columns of the related table of the database are like the following.<br><br>
+There is a database connected to that application which stores the information of users. The columns of the related table of the database are like the following.
+<br>
 | ID          | Username    |  DisplayName      | Phone       | Email      | UserRole       | Enabled       |
 | ----------- | ----------- |  -------          | ----------- | -------          | ----------- | -------       |
 | NULL   | NULL        |  NULL           | NULL | NULL      | NULL       | NULL       |
-<br><br>
+<br>
+
 The tuples of that table(users) is created with the filled inputs in the sign up form in the user interface. Display part of the user interface queries the database in order to display particular columns and their values such as *ID*, *User Name* , *Email* and *Enabled*.
-<br><br>
+<br>
 
 ## 2. Design Details
 <br>
-The user interface can be divided into three sections as it is provided in the following figure.<br><br>
+The user interface can be divided into three sections as it is provided in the following figure.<br>
 
-![](/assets/son.png "User Interface")
-<br><br>
+![UI](/assets/son.png "User Interface")
+<br>
 
 ### **Section 1**
 This section is located on the top of the user interface. It contains two buttons and a checkbox. 
@@ -34,13 +35,13 @@ This button let the system create a new tuple with the given values in the form 
 
 #### *Hide Disable User Checkbox*
 This checkbox hides the users whose *Enabled* value is false queried with `"Enabled" = false` in the table. So, it alters the display part regarding to that.
-<br><br>
+<br>
 
 ### **Section 2**
 This section is located on the left side of the user interface. It displays the particular columns of the table which contains information about the signed up users. This part is updated as a new user signed up and inserted into database with the *Save User Button*.
 
 Displayed columns can be sorted with the sort buttons near the column names.
-<br><br>
+<br>
 
 ### **Section 3**
 This section is located on the right side of the user interface. This part contains a sign up form with input fields related to the information about user.
