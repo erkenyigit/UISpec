@@ -3,7 +3,7 @@
 
 This document specifies the usage and technical features of the user interface which is provided in the following figure.
 
-![UI](/assets/image001.jpg "User Interface")
+![UI](/uispec/assets/image001.jpg "User Interface")
 <br>
 This user interface is designed to sign new users up to the system and to display the current users in the system.
 
@@ -21,7 +21,7 @@ The tuples of that table(users) is created with the filled inputs in the sign up
 <br>
 The user interface can be divided into three sections as it is provided in the following figure.<br>
 
-![UI](/assets/son.png "User Interface")
+![UI](/uispec/assets/son.png "User Interface")
 <br>
 
 ### **Section 1**
