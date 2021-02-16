@@ -19,7 +19,7 @@ The tuples of that table(users) is created with the filled inputs in the sign up
 
 ## 2. Design Details
 <br>
-The user interface can be divided into three sections as it is provided in the following figure.<br>
+The user interface can be divided into three sections as it is provided in the following figure.<br><br>
 
 ![UI](/uispec/assets/son.png "User Interface")
 <br>
