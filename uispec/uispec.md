@@ -66,6 +66,17 @@ This input field takes a checkbox input in order to assign its value to the *Ena
 
 After filling out the form, the user can be saved to the database and displayed via *Save User Button*.
 
+## 3. Flow
+Initially **Section 2** displays current users.
+
+1. *New User Button* pressed.
+2. New user form showed up in **Section 3**.
+3. Form filled out.
+4. *Save User Button* pressed.
+5. The new user inserted into database and displayed in **Section 2**.
+6. *Hide Disable User Checkbox* is checked and disabled users are no longer displayed in **Section2**.
+7. One of the filter buttons in **Section 2** is pressed and the display sorted accordingly.
+
 
 
 
